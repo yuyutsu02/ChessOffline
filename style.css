@@ -7,7 +7,7 @@ body{
     height: 100vh;
     background-image:url('../utils/bg.jpg');
     background-size: cover;
-    background-color: aqua;
+    background-color: rgb(255, 215, 105);
     display: flex;
     justify-content: center;
     align-items: center;
