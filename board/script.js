@@ -23,17 +23,23 @@ let wtime= document.querySelector('.wtime');
 let turn ='white';
 
 //changing turns and stopping clock and adding additional time
+//checking if its right turn then only button works
 btime.addEventListener('click',()=>
+ {
+    if(turn==='black')
  {
      black_time+=increment;
     btime.innerText=black_time;
     turn='white';
+ }
 })
 wtime.addEventListener('click',()=>
-{   
+{    if(turn==='white')
+ {
     white_time+=increment;
     wtime.innerText=white_time;
     turn='black';
+ }
 })
 
 //timer working //timeout functionality
