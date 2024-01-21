@@ -68,3 +68,45 @@ const timer=setInterval(()=>
         };
     },1000);
 
+
+
+//chess board rendering with unique id and white black classes
+const board=document.querySelector('.midBoard');
+
+for(let i=0;i<8;i++){
+
+if(i%2===0){
+    
+    for(let j=0;j<8;j++){
+        if(j%2===0){
+            const black_block=document.createElement('div');
+            black_block.setAttribute('class','blackblock')
+            black_block.setAttribute('id',`${i}${j}`);
+            board.appendChild(black_block);
+        }else{
+            const white_block=document.createElement('div');
+            white_block.setAttribute('class','whiteblock');
+            white_block.setAttribute('id',`${i}${j}`);
+            board.appendChild(white_block);
+        }
+    }
+
+}else{
+    for(let j=0;j<8;j++){
+        if(j%2===0){
+            const white_block=document.createElement('div');
+            white_block.setAttribute('class','whiteblock');
+            white_block.setAttribute('id',`${i}${j}`);
+            board.appendChild(white_block);
+        }else{
+            const black_block=document.createElement('div');
+            black_block.setAttribute('class','blackblock')
+            black_block.setAttribute('id',`${i}${j}`);
+            board.appendChild(black_block);
+        }
+    }
+}
+
+
+
+}

@@ -19,13 +19,15 @@ body{
     display: flex;
 }
 .midBoard{
-    background-color:
-     rgba(35, 91, 123, 1);
+    background-color:rgba(35, 91, 123, 1);
+    /* background-color: brown; */
     width: 100vw;
     height: 100vw;
     margin-bottom: 5vh;
     margin-top: 5vh;
     border-radius: 49px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .white{
     width: 100vw;
@@ -54,4 +56,16 @@ body{
     height: 100%;
     border-radius: 49px 0px 0px 49px  ;
     background-color: rgba(106, 133, 164, 1);
+}
+.whiteblock{
+    width: 12.5%;
+    height: 12.5%;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 4.9px;
+}
+.blackblock{
+    width: 12.5%;
+    height: 12.5%;
+    background-color:rgba(35, 91, 123, 1);
+    border-radius: 4.9px;
 }
