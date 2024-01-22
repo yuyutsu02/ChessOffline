@@ -62,10 +62,52 @@ body{
     height: 12.5%;
     background-color: rgba(217, 217, 217, 1);
     border-radius: 4.9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .blackblock{
     width: 12.5%;
     height: 12.5%;
     background-color:rgba(35, 91, 123, 1);
     border-radius: 4.9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white_rook{
+    background-image: url('../peices/wr.png');
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+}
+.white_knight{
+    background-image: url('../peices/wkn.png');
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+}
+.white_bishop{
+    background-image: url('../peices/wb.png');
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+}
+.white_king{
+    background-image: url('../peices/wk.png');
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+}
+.white_queen{
+    background-image: url('../peices/wq.png');
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+}
+.white_pawn{
+    background-image: url('../peices/wp.png');
+    width: 90%;
+    height: 90%;
+    background-size: cover;
 }

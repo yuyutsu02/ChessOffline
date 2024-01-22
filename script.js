@@ -6,7 +6,7 @@ const width=window.innerWidth;
 if(width>=height){
     alert('this device is not compatible try using a smartphone!');
     const body=document.querySelector('body');
-    body.style.display='none';
+    // body.style.display='none';
 }
 
 const play=document.querySelector('.play');
