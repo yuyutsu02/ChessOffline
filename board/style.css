@@ -81,8 +81,20 @@ body{
     height: 90%;
     background-size: cover;
 }
+.black_rook{
+    background-image: url('../peices/br.png');
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+}
 .white_knight{
     background-image: url('../peices/wkn.png');
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+}
+.black_knight{
+    background-image: url('../peices/bkn.png');
     width: 90%;
     height: 90%;
     background-size: cover;
@@ -93,8 +105,20 @@ body{
     height: 90%;
     background-size: cover;
 }
+.black_bishop{
+    background-image: url('../peices/bb.png');
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+}
 .white_king{
     background-image: url('../peices/wk.png');
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+}
+.black_king{
+    background-image: url('../peices/bk.png');
     width: 90%;
     height: 90%;
     background-size: cover;
@@ -105,8 +129,20 @@ body{
     height: 90%;
     background-size: cover;
 }
+.black_queen{
+    background-image: url('../peices/bq.png');
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+}
 .white_pawn{
     background-image: url('../peices/wp.png');
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+}
+.black_pawn{
+    background-image: url('../peices/bp.png');
     width: 90%;
     height: 90%;
     background-size: cover;
