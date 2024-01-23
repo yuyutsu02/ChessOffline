@@ -167,3 +167,30 @@ place_piece('white_queen','73');
 place_piece('white_bishop','72');
 place_piece('white_knight','71');
 place_piece('white_rook','70');
+
+
+
+
+
+//numbering blocks
+const whiteblocks=document.querySelectorAll('.whiteblock');
+const blackblocks=document.querySelectorAll('.blackblock');
+
+whiteblocks.forEach((block)=>
+{
+    const temp=document.createElement('div');
+    temp.style.position='absolute';
+    temp.innerText=block.id;
+    block.appendChild(temp);
+
+})
+
+
+blackblocks.forEach((block)=>
+{
+    const temp=document.createElement('div');
+    temp.style.position='absolute';
+    temp.innerText=block.id;
+    block.appendChild(temp);
+
+})

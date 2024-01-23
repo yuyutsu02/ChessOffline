@@ -65,6 +65,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+   color: rgb(90, 235, 254);
+    font-size:xx-small;
+    
 }
 .blackblock{
     width: 12.5%;
@@ -74,6 +77,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size:xx-small;
+    color: rgb(90, 235, 254);
+    
 }
 .white_rook{
     background-image: url('../peices/wr.png');
@@ -147,3 +153,4 @@ body{
     height: 90%;
     background-size: cover;
 }
+
